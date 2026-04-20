@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cross-pollination"
+version = "0.1.0"
+description = "Cross-room synergy detection for AI agent fleets. Finds shared concepts between knowledge domains."
+license = {text = "MIT"}
+requires-python = ">=3.10"
+keywords = ["agents", "knowledge", "synergy", "cross-pollination", "rooms", "plato"]
+classifiers = ["Development Status :: 3 - Alpha", "License :: OSI Approved :: MIT License"]
+
+[project.urls]
+Homepage = "https://github.com/cocapn/cocapn"
+
+[tool.setuptools.packages.find]
+include = ["cross_pollination*"]
